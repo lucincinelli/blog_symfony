@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0; }
+  * img {
+    max-width: 100%; }
+
+nav {
+  background-color: #ffaa79; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+    nav ul aside {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 1% 0 1% 0; }
+      nav ul aside li a {
+        color: white;
+        font-weight: 700; }
+
+div.content .btn {
+  background-color: #ffaa79;
+  color: white; }
+
+/*# sourceMappingURL=blog.css.map */

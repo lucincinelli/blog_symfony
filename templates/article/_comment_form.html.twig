@@ -1,0 +1,12 @@
+<form action="">
+    <input type="text" name="authro">
+    <br>
+    <input type="text" name="contenu">
+</form>
+
+    {{ form_start(CommentType) }}
+        {{ form_row(CommentType.author) }}
+        {{ form_row(CommentType.content) }}
+
+        <button type="submit" class="btn">Commenter</button>
+    {{ form_end(CommentType) }}
